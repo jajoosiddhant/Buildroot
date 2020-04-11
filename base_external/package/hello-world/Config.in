@@ -1,0 +1,5 @@
+config BR2_PACKAGE_HELLO_WORLD
+	bool "hello-world"
+	help
+	  Includes a simple hello world C program.
+	  Used to understand buildroot external trees and package builds.
