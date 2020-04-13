@@ -28,3 +28,9 @@ In order to add the hello-world package use make menuconfig, enable the package 
 In order to optionally download the buildroot contents to a differne directory use BR2_DL option.
 To save the linux kernel config file to a specific location, change the path to BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE in the modified_defconfig file in configs directory or via make menuconfig or using make -C buildroot linux-update-defconfig BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE = <PATH>.
 
+Adding hello-world package using make-menuconfig
+Adding rootfs_overlay using make-menuconfig
+Adding dropbear and root password.
+Then use save_config.sh to save the changes in base_external
+
+
