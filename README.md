@@ -34,3 +34,7 @@ Adding dropbear and root password.
 Then use save_config.sh to save the changes in base_external
 
 
+Make sure that you create a configuration file before changing the BR2_LINUX_KERNEL_CUSTOM_CONFIG_FILE etc options. Otherwise, Buildroot will try to access this config file which doesn't exist yet and will fail. You can create the confifuration file by running make linux-menuconfig etc.
+
+Any changes in make_menuconfig must be followed by save_config to reflect in the next build.
+
