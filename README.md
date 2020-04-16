@@ -38,3 +38,7 @@ Make sure that you create a configuration file before changing the BR2_LINUX_KER
 
 Any changes in make_menuconfig must be followed by save_config to reflect in the next build.
 
+## References
+- [Buildroot](https://buildroot.org/)
+- Mastering Embedded Linux Programming - Second Edition by Chris Simmonds
+- Course content of Advanced Embedded Software Development (AESD) from University of Colorado, Boulder.
